@@ -2,7 +2,7 @@ public class Solution {
     public ArrayList<Integer> wave(ArrayList<Integer> A) {
         if(A.size() <= 1)return A;
         /*
-        Logic - notice that int the answer,the first element is always the second smallest
+        Logic - notice that in the answer,the first element is always the second smallest
         number and the first element is the smallest number.
         After that, the third elelment is the 4th smallest and fourth element
         is the third smallest. So basically if you sort and then group in pairs 
